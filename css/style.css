@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+header{
+    color: rgb(188, 241, 241);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../img/bandeira-brasil.jpg") ;
+    background-size: cover;
+}
+#subtitle{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+main{
+    background-image: url("../img/eng2.png") ;
+    background-size: 850px;
+
+}
+
+
+.balao{
+    color:#cea45c;
+    position: relative;
+    padding: 5px;
+    width: 430px;
+    height: 90%;
+    background-color: #3f261c;
+    border-radius: 30px;
+}
+.balao-esquerdo{
+    margin-left: 10%;
+} 
+.balao-direito{
+    margin-right: 10%;
+}
+
+.triangulo{
+    display: inline-block;
+    margin-top: -300px;
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+}
+
+.triangulo-direita{
+    margin-left: 430px;
+    border-left: 60px solid #3f261c;
+}
+
+.triangulo-esquerda{
+    margin-left: -60px;
+    border-right: 60px solid #3f261c;
+
+}
+
+section{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+
+}
+.img-balao{
+    margin-left: 110px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+p{
+    text-align: center;
+    
+}
+h4{
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+.section-direito{
+    flex-direction: row-reverse;
+}
+.section-esquerdo{
+    flex-direction: row;
+}
+.balao-sem-imagem{
+    padding-top: 250px;
+}
+
+
