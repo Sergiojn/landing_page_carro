@@ -20,6 +20,74 @@ header{
     margin-top: 10px;
     margin-left: 20px;
 }
+
+.img-sprite{
+    width: 90px;
+    height: 110px;
+    
+    background: url("../img/sprite_ampulheta.png") ;
+    
+    
+    animation: ampulheta 3s steps(1) infinite;
+    
+}
+
+@keyframes ampulheta{
+    0%{
+        background-position-x: 0px;
+    }
+    8%{
+        background-position-x: -90px ;
+    }
+    16%{
+        background-position-x: -181px ;
+    }
+    24%{
+        background-position-x: -269px ;
+    }
+    32%{
+        background-position-x: -358px ;
+    }
+    40%{
+        background-position-x: -448px ;
+        
+    }
+    
+    48%{
+        background-position-x: -450px ;
+        transform: rotate(20deg);  
+    }
+    56%{
+        background-position-x: -450px ;
+        transform: rotate(40deg);  
+    }
+    64%{
+        background-position-x: -450px ;
+        transform: rotate(60deg);  
+    }
+    72%{
+        background-position-x: -450px ;
+        transform: rotate(80deg);  
+    }
+    80%{
+        background-position-x: -450px ;
+        transform: rotate(100deg);  
+    }
+    88%{
+        background-position-x: -450px ;
+        transform: rotate(120deg);  
+    }
+    94%{
+        background-position-x: -450px ;
+        transform: rotate(140deg);  
+    }
+    100%{
+        background-position-x: -450px ;
+        transform: rotate(160deg);  
+    }
+    
+
+}
 main{
     background-image: url("../img/eng2.png") ;
     background-size: 850px;
@@ -93,6 +161,11 @@ h4{
 }
 .balao-sem-imagem{
     padding-top: 250px;
+}
+footer{
+    padding: 10px;
+    background-color: #8a766e;
+    color: aliceblue;
 }
 
 
